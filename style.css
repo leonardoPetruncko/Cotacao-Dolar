@@ -38,7 +38,7 @@ img {
     width: 90px;
 }
 
-/* RATIO */
+/* === RATIO Inicio === */
 .ratioBox {
     display: flex;
     align-items: center;
@@ -126,6 +126,54 @@ label .fa-solid {
 
 input[type="radio"]:checked+label .fa-solid {
     animation: grow 0.5s;
+}
+
+/* === RATIO Final === */
+
+/* === DATE Inicio === */
+
+.dateBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.dateEscolha {
+    height: 40px;
+    width: 120px;
+    position: relative;
+}
+
+input[type="date"] {
+    -webkit-appearance: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #314D97;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(2, 28, 53, 0, 0.5);
+    border: 3px solid transparent;
+    outline: none;
+    color: #e2e6f3;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #fff;
+    padding: 4px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dateEscolha h6 {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #314D97;
+    font-weight: 700;
 }
 
 /* API irá aparecer aqui*/
