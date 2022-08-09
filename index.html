@@ -26,16 +26,16 @@
 
         <section class="ratioBox">
             <div class="ratioEscolha">
-                <input type="radio" name="escolhaDiaAtual" id="escolhaDiaAtual1" onclick="text(0)">
-                <label class="labelRatio" for="escolhaDiaAtual1">
+                <input type="radio" name="escolhaDia" id="escolhaDiaAtual" onclick="text(0)">
+                <label class="labelRatio" for="escolhaDiaAtual">
                     <i class="fa-solid fa-calendar-check"></i>
                     <h6>Dia Atual</h6>
                 </label>
             </div>
 
             <div class="ratioEscolha">
-                <input type="radio" name="escolhaDiaAtual" id="escolhaDiaAtual2" onclick="text(1)">
-                <label class="labelRatio" for="escolhaDiaAtual2">
+                <input type="radio" name="escolhaDia" id="escolhaDiaFinal" onclick="text(1)">
+                <label class="labelRatio" for="escolhaDiaFinal">
                     <i class="fa-solid fa-calendar-check"></i>
                     <h6>Periodo 7 dias</h6>
                 </label>
@@ -46,16 +46,16 @@
 
         <section class="dateBox">
             <div class="dateEscolha" id="mycode">
-                <input type="date" name="diaAtual" id="diaAtual1" checked>
+                <input type="date" name="dia" id="diaAtual" checked>
                 <h6>Data Inicial</h6>
-                <label class="labelDate" for="diaAtual1">
+                <label class="labelDate" for="diaAtual">
                 </label>
             </div>
 
             <div class="dateEscolha" id="mycode">
-                <input type="date" name="diaAtual" id="diaAtual2">
+                <input type="date" name="dia" id="diaFinal">
                 <h6>Data Final</h6>
-                <label class="labelDate" for="diaAtual2">
+                <label class="labelDate" for="diaFinal">
                 </label>
             </div>
         </section>
@@ -64,7 +64,7 @@
             // Cotação aqui API
         </div>
 
-        <button id="jokeBtn" class="btn">Gere sua Cotação</button>
+        <button id="submit" class="btn">Gere sua Cotação</button>
     </div>
 
     <script src="script.js"></script>

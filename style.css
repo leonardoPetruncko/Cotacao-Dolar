@@ -178,9 +178,12 @@ input[type="date"] {
 
 /* API irá aparecer aqui*/
 .cotacao {
-    font-size: 20px;
-    margin: 50px auto;
-    max-width: 200px;
+    margin: 30px;
+    background-color: #314D97;
+    color: #fff;
+    padding: 1em;
+    font-size: 1.2em;
+    opacity: 0.8;
 }
 
 /*Botao*/
