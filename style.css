@@ -29,13 +29,14 @@ body {
 
 /*Titulo*/
 h3 {
+    
     opacity: 0.9;
     color: #314D97;
 }
 
 /*Imagem*/
 img {
-    width: 90px;
+    width: 130px;
 }
 
 /* === RATIO Inicio === */
@@ -48,8 +49,8 @@ img {
 }
 
 .ratioEscolha {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     position: relative;
 }
 
@@ -72,7 +73,7 @@ input[type="radio"]:after {
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     content: "\f111";
-    font-size: 16px;
+    font-size: 18px;
     top: 10px;
     left: 10px;
     color: #e2e6f3;
@@ -110,17 +111,18 @@ input[type="radio"]:checked:after {
     position: absolute;
     bottom: 0;
     cursor: pointer;
+    
 }
 
 label h6 {
     font-family: "Roboto", sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 700;
     color: #f0f1f2;
 }
 
 label .fa-solid {
-    font-size: 20px;
+    font-size: 24px;
     color: #f0f1f2;
 }
 
@@ -142,7 +144,7 @@ input[type="radio"]:checked+label .fa-solid {
 }
 
 .dateEscolha {
-    height: 40px;
+    height: 30px;
     width: 120px;
     position: relative;
 }

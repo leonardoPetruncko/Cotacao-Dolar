@@ -39,7 +39,7 @@ submit.addEventListener("click", async () => {
     let dia1 = (document.getElementById("diaAtual").value)
     let dia2 = (document.getElementById("diaFinal").value)
 
-    const dataInicialFormatada = new Date(dia1).toLocaleDateString("en-US");
+    const dataInicialFormatada = new Date (dia1).toLocaleDateString("en-US");
     const dataFinalFormatada = new Date(dia2).toLocaleDateString("en-US");
 
     if (!dia1) return getSingleResult(dataFinalFormatada)
